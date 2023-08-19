@@ -2,9 +2,29 @@
 import React, { useEffect, useRef, useState } from "react";
 export const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  //  const [darkMode, setDarkMode] = useState(() => {
+  //   const savedMode = typeof window !== 'undefined' ? localStorage.getItem('dark-mode') : null;
+  //   return savedMode === 'true';
+  //   });
+
+  //   useEffect(() => {
+  //   if (darkMode) {
+  //     document.documentElement.classList.add('dark');
+  //     localStorage.setItem('dark-mode', 'true');
+  //   } else {
+  //     document.documentElement.classList.remove('dark');
+  //     localStorage.setItem('dark-mode', 'false');
+  //   }
+  // }, [darkMode]);
+    const [isDarkMode, setIsDarkMode] = useState(false);
+    const toggleDarkMode = () => {
+        setIsDarkMode(prevMode => !prevMode);
+      };
+
 
   return (
-    <div class="bg-[#070745]">
+    <div class="bg-[#FFFFFF] sticky top-0 z-50">
+
       <div class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div class="relative flex items-center justify-between">
           <a
@@ -13,8 +33,10 @@ export const Nav = () => {
             title="Company"
             class="inline-flex items-center"
           >
-            <img src="icon-tekyvil.png" className="h-7 w-10"/>
-            <span class="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">
+            <img src="Tekyville_.png" className="h-20 w-20"/>
+            <span class="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase"
+            style ={{color: '#070745'}}>
+              
               Tekyville
             </span>
           </a>
@@ -26,6 +48,7 @@ export const Nav = () => {
                 aria-label="Our product"
                 title="Our product"
                 class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+                style ={{color: '#070745'}}
               >
                 Product
               </a>
@@ -36,6 +59,7 @@ export const Nav = () => {
                 aria-label="Our product"
                 title="Our product"
                 class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+                style ={{color: '#070745'}}
               >
                 Features
               </a>
@@ -45,7 +69,8 @@ export const Nav = () => {
                 href="/"
                 aria-label="Product pricing"
                 title="Product pricing"
-                class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+                class="font-medium tracking-wide text-blue-100 transition-colors duration-200 hover:text-teal-accent-400"
+                style ={{color: '#070745'}}
               >
                 Pricing
               </a>
@@ -56,6 +81,7 @@ export const Nav = () => {
                 aria-label="About us"
                 title="About us"
                 class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+                style ={{color: '#070745'}}
               >
                 About us
               </a>
@@ -129,12 +155,19 @@ export const Nav = () => {
                   <nav>
                     <ul class="space-y-4">
                       <li>
+  <button onClick={toggleDarkMode} className="px-4 py-2 font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400 border rounded focus:outline-none" style={{color: '#070745'}}>
+    {isDarkMode ? "Light Mode" : "Dark Mode"}
+  </button>
+</li>
+
+                      <li>
                         <a
                           href="/"
                           aria-label="Our product"
                           title="Our product"
                           class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
+                          
                           Product
                         </a>
                       </li>
@@ -158,6 +191,7 @@ export const Nav = () => {
                           Pricing
                         </a>
                       </li>
+                      
                       <li>
                         <a
                           href="/"
@@ -168,16 +202,28 @@ export const Nav = () => {
                           About us
                         </a>
                       </li>
+                        <li>
+                        <button onClick={toggleDarkMode} className="focus:outline-none">
+                          {isDarkMode ? "Light Mode" : "Dark Mode"}
+                        </button>
+                      </li>
+                       {/* <li>
+                        <button onClick={toggleDarkMode} className="px-4 py-2 font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400 border rounded focus:outline-none" style={{color: 'black'}}>
+                          {isDarkMode ? "Light Mode" : "Dark Mode"}
+                        </button>
+                      </li> */}
                       <li>
                         <a
                           href="/"
-                          class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-[#fd5309] hover:bg-[#ebff00] focus:shadow-outline focus:outline-none"
+                          class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-400 rounded shadow-sm bg-[#fd5309] hover:bg-[#ebff00] focus:shadow-outline focus:outline-none"
                           aria-label="Sign up"
                           title="Sign up"
                         >
                           Sign up
                         </a>
                       </li>
+     
+
                     </ul>
                   </nav>
                 </div>

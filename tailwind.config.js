@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 const defaultTheme = require('tailwindcss/defaultTheme');
 module.exports = {
+  darkMode: 'class',//media
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
@@ -8,6 +9,15 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+      dark: {
+        primary: '#060637',
+        secondary: '#F2DDF8',
+        tertiary:'#F25A02',
+        fourth: '#F2DDF8',
+        // ... add other colors as required
+      },
+    },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
