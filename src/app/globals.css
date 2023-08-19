@@ -25,3 +25,11 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.myLink {
+  color:'#00FF99';
+  transition: color 0.3s;
+}
+
+.myLink:hover {
+  color: whitesmoke; 
+}

@@ -2,6 +2,7 @@
 import React, { useEffect, useRef, useState } from "react";
 export const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  
   //  const [darkMode, setDarkMode] = useState(() => {
   //   const savedMode = typeof window !== 'undefined' ? localStorage.getItem('dark-mode') : null;
   //   return savedMode === 'true';
@@ -23,19 +24,21 @@ export const Nav = () => {
 
 
   return (
-    <div class="bg-[#FFFFFF] sticky top-0 z-50">
+    <div class="bg-[#000020] sticky top-0 z-50 border-b border-white" >
 
-      <div class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+
+      <div class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-20 lg:px-8">
         <div class="relative flex items-center justify-between">
           <a
             href="/"
+            
             aria-label="Company"
             title="Company"
             class="inline-flex items-center"
           >
-            <img src="Tekyville_.png" className="h-20 w-20"/>
-            <span class="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase"
-            style ={{color: '#070745'}}>
+            <img src="icon-tekyvil.png" className="h-12 w-12"/>
+            <span class="ml-2 text-xl font-bold tracking-wide text-gray-50 uppercase"
+           >
               
               Tekyville
             </span>
@@ -47,8 +50,9 @@ export const Nav = () => {
                 href="/"
                 aria-label="Our product"
                 title="Our product"
-                class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
-                style ={{color: '#070745'}}
+                className="myLink"
+                // class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+                // style ={{color: '#00BFFF'}}
               >
                 Product
               </a>
@@ -58,8 +62,9 @@ export const Nav = () => {
                 href="/"
                 aria-label="Our product"
                 title="Our product"
-                class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
-                style ={{color: '#070745'}}
+                className="myLink"
+                // class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+                // style ={{color: '#00BFFF'}}
               >
                 Features
               </a>
@@ -69,8 +74,9 @@ export const Nav = () => {
                 href="/"
                 aria-label="Product pricing"
                 title="Product pricing"
-                class="font-medium tracking-wide text-blue-100 transition-colors duration-200 hover:text-teal-accent-400"
-                style ={{color: '#070745'}}
+                className="myLink"
+                // class="font-medium tracking-wide text-blue-100 transition-colors duration-200 hover:text-teal-accent-400"
+                // style ={{color: '#00BFFF'}}
               >
                 Pricing
               </a>
@@ -80,8 +86,9 @@ export const Nav = () => {
                 href="/"
                 aria-label="About us"
                 title="About us"
-                class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
-                style ={{color: '#070745'}}
+                className="myLink"
+                // class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:light-green-accent-400"
+                // style ={{color: '#00BFFF',hover: '#000000'}}
               >
                 About us
               </a>
@@ -89,7 +96,7 @@ export const Nav = () => {
             <li>
               <a
                 href="/"
-                class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-[#fd5309] hover:bg-[#fd0909] focus:shadow-outline focus:outline-none"
+                class="inline-flex items-center justify-center h-8 px-4 font-medium tracking-wide text-white transition duration-200 rounded shadow-s bg-[#00007A] hover:bg-[#00003D] focus:shadow-outline focus:outline-none"
                 aria-label="Sign up"
                 title="Sign up"
               >
@@ -104,7 +111,7 @@ export const Nav = () => {
               class="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline"
               onClick={() => setIsMenuOpen(true)}
             >
-              <svg class="w-5 text-gray-600" viewBox="0 0 24 24">
+              <svg class="w-5 text-gray-50" viewBox="0 0 24 24">
                 <path
                   fill="currentColor"
                   d="M23,13H1c-0.6,0-1-0.4-1-1s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,13,23,13z"
@@ -121,17 +128,17 @@ export const Nav = () => {
             </button>
             {isMenuOpen && (
               <div class="absolute top-0 left-0 w-full">
-                <div class="p-5 bg-white border rounded shadow-sm">
+                <div class="p-5 bg-white border rounded shadow-sm" style={{backgroundColor:'#000033'}}>
                   <div class="flex items-center justify-between mb-4">
                     <div>
                       <a
                         href="/"
                         aria-label="Company"
                         title="Company"
-                        class="inline-flex items-center"
+                       
                       >
                         <img src="icon-tekyvil.png" className="h-7 w-10"/>
-                        <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
+                        <span class="ml-2 text-xl font-bold tracking-wide text-gray-50 uppercase" >
                           Tekyville
                         </span>
                       </a>
@@ -154,18 +161,14 @@ export const Nav = () => {
                   </div>
                   <nav>
                     <ul class="space-y-4">
-                      <li>
-  <button onClick={toggleDarkMode} className="px-4 py-2 font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400 border rounded focus:outline-none" style={{color: '#070745'}}>
-    {isDarkMode ? "Light Mode" : "Dark Mode"}
-  </button>
-</li>
+                    
 
                       <li>
                         <a
                           href="/"
                           aria-label="Our product"
                           title="Our product"
-                          class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          className="myLink"
                         >
                           
                           Product
@@ -176,7 +179,7 @@ export const Nav = () => {
                           href="/"
                           aria-label="Our product"
                           title="Our product"
-                          class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        className="myLink"
                         >
                           Features
                         </a>
@@ -186,7 +189,7 @@ export const Nav = () => {
                           href="/"
                           aria-label="Product pricing"
                           title="Product pricing"
-                          class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          className="myLink"
                         >
                           Pricing
                         </a>
@@ -197,16 +200,16 @@ export const Nav = () => {
                           href="/"
                           aria-label="About us"
                           title="About us"
-                          class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          className="myLink"
                         >
                           About us
                         </a>
                       </li>
-                        <li>
+                        {/* <li>
                         <button onClick={toggleDarkMode} className="focus:outline-none">
                           {isDarkMode ? "Light Mode" : "Dark Mode"}
                         </button>
-                      </li>
+                      </li> */}
                        {/* <li>
                         <button onClick={toggleDarkMode} className="px-4 py-2 font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400 border rounded focus:outline-none" style={{color: 'black'}}>
                           {isDarkMode ? "Light Mode" : "Dark Mode"}
@@ -215,7 +218,7 @@ export const Nav = () => {
                       <li>
                         <a
                           href="/"
-                          class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-400 rounded shadow-sm bg-[#fd5309] hover:bg-[#ebff00] focus:shadow-outline focus:outline-none"
+                          class="inline-flex items-center justify-center w-full h-8 px-6 font-medium tracking-wide text-white transition duration-400 rounded shadow-sm bg-[#00007A] hover:bg-[#00003D] focus:shadow-outline focus:outline-none"
                           aria-label="Sign up"
                           title="Sign up"
                         >
