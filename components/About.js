@@ -16,7 +16,7 @@ export const About = () => {
               </span>
             </h2>
             <p className="text-base text-gray-500 md:text-md">
-               Witness the transformation of abstract concepts into tangible AI-powered solutions. Where dreams meet data, that's where we thrive.
+               Witness the transformation of abstract concepts into tangible AI-powered solutions. Where dreams meet data, that&apos;s where we thrive.
             </p>
           </div>
           <div className="grid gap-5 row-gap-8 sm:grid-cols-2" >

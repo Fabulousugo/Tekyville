@@ -40,7 +40,7 @@ export const Content2 = () => {
             </span>
         </h2>
         <p className="text-base text-gray-500 md:text-lg">
-          Dive into the future with our state-of-the-art AI solutions. We don't just predict the future, we shape it.
+          Dive into the future with our state-of-the-art AI solutions. We don&apos;t just predict the future, we shape it.
         </p>
       </div>
       <div className="grid max-w-screen-lg gap-8 lg:grid-cols-2 sm:mx-auto">
