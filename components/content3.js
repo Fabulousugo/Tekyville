@@ -17,7 +17,7 @@ export const Content3 = () => {
               </span>
             </h2>
             <p className="text-base text-gray-500 md:text-lg">
-               Dive into the future with our state-of-the-art AI solutions. We don't just predict the future, we shape it.
+               Dive into the future with our state-of-the-art AI solutions. We don&apos;t just predict the future, we shape it.
             </p>
           </div>
           <p className="mb-4 text-sm font-bold tracking-widest uppercase">
