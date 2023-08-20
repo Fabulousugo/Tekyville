@@ -48,19 +48,19 @@ export const Team = () => {
             alt="Person"
           />
           <div className="flex flex-col justify-center">
-            <p className="text-lg font-bold">Oliver Aguilerra</p>
-            <p className="text-sm text-gray-500">Product Manager</p>
+            <p className="text-lg font-bold">Justina Ariguzo</p>
+            <p className="text-sm text-gray-500">CEO</p>
           </div>
         </div>
         <div className="flex">
           <img
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
-            src="https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+            src="ugo.jpg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
             alt="Person"
           />
           <div className="flex flex-col justify-center">
-            <p className="text-lg font-bold">Marta Clermont</p>
-            <p className="text-sm text-gray-500">Design Team Lead</p>
+            <p className="text-lg font-bold">Ugochukwu Precious</p>
+            <p className="text-sm text-gray-500">CTO/Team Lead</p>
           </div>
         </div>
         <div className="flex">
@@ -70,7 +70,7 @@ export const Team = () => {
             alt="Person"
           />
           <div className="flex flex-col justify-center">
-            <p className="text-lg font-bold">Anthony Geek</p>
+            <p className="text-lg font-bold">Chukwuebuka Osuji</p>
             <p className="text-sm text-gray-500">CTO, Lorem Inc.</p>
           </div>
         </div>
@@ -81,7 +81,7 @@ export const Team = () => {
             alt="Person"
           />
           <div className="flex flex-col justify-center">
-            <p className="text-lg font-bold">Alice Melbourne</p>
+            <p className="text-lg font-bold">Israel Olamide Ogunsola</p>
             <p className="text-sm text-gray-500">Human Resources</p>
           </div>
         </div>
@@ -92,7 +92,7 @@ export const Team = () => {
             alt="Person"
           />
           <div className="flex flex-col justify-center">
-            <p className="text-lg font-bold">Martin Garix</p>
+            <p className="text-lg font-bold">Abeng Ephang</p>
             <p className="text-sm text-gray-500">Bad boy</p>
           </div>
         </div>
@@ -103,7 +103,7 @@ export const Team = () => {
             alt="Person"
           />
           <div className="flex flex-col justify-center">
-            <p className="text-lg font-bold">Andrew Larkin</p>
+            <p className="text-lg font-bold">Christopher Chinedu</p>
             <p className="text-sm text-gray-500">Backend Developer</p>
           </div>
         </div>
@@ -113,20 +113,10 @@ export const Team = () => {
             src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
             alt="Person"
           />
+          
           <div className="flex flex-col justify-center">
-            <p className="text-lg font-bold">Sophie Denmo</p>
+            <p className="text-lg font-bold">Abdulyekeen Lukman </p>
             <p className="text-sm text-gray-500">Designer UI/UX</p>
-          </div>
-        </div>
-        <div className="flex">
-          <img
-            className="object-cover w-20 h-20 mr-4 rounded-full shadow"
-            src="https://images.pexels.com/photos/3931553/pexels-photo-3931553.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-            alt="Person"
-          />
-          <div className="flex flex-col justify-center">
-            <p className="text-lg font-bold">Benedict Caro</p>
-            <p className="text-sm text-gray-500">Frontend Developer</p>
           </div>
         </div>
         <div className="flex">
@@ -136,10 +126,22 @@ export const Team = () => {
             alt="Person"
           />
           <div className="flex flex-col justify-center">
-            <p className="text-lg font-bold">Adam Molly</p>
+            <p className="text-lg font-bold">Abraham Adinlewa</p>
             <p className="text-sm text-gray-500">Full Stack Developer</p>
           </div>
         </div>
+        <div className="flex">
+          <img
+            className="object-cover w-20 h-20 mr-4 rounded-full shadow"
+            src="https://images.pexels.com/photos/3931553/pexels-photo-3931553.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+            alt="Person"
+          />
+          <div className="flex flex-col justify-center">
+            <p className="text-lg font-bold">Davidson Idadakpoyeo</p>
+            <p className="text-sm text-gray-500">Frontend Developer</p>
+          </div>
+        </div>
+        
       </div>
     </div>
   );

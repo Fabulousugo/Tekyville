@@ -25,7 +25,7 @@ export const Content3 = () => {
           </p>
           <div className="grid space-y-3 sm:gap-2 sm:grid-cols-2 sm:space-y-0">
             <ul className="space-y-3">
-              <li className="flex">
+              <li className="flex text-gray-300">
                 <span className="mr-1">
                   <svg
                     className="w-5 h-5 mt-px text-deep-purple-accent-400"
@@ -41,9 +41,9 @@ export const Content3 = () => {
                     />
                   </svg>
                 </span>
-                A slice of heaven
+                Machine Learning (ML)
               </li>
-              <li className="flex">
+              <li className="flex text-gray-300">
                 <span className="mr-1">
                   <svg
                     className="w-5 h-5 mt-px text-deep-purple-accent-400"
@@ -59,9 +59,9 @@ export const Content3 = () => {
                     />
                   </svg>
                 </span>
-                Disrupt inspire
+                Neural Networks
               </li>
-              <li className="flex">
+              <li className="flex text-gray-300">
                 <span className="mr-1">
                   <svg
                     className="w-5 h-5 mt-px text-deep-purple-accent-400"
@@ -77,11 +77,11 @@ export const Content3 = () => {
                     />
                   </svg>
                 </span>
-                Preliminary thinking
+                Deep Learning
               </li>
             </ul>
             <ul className="space-y-3">
-              <li className="flex">
+              <li className="flex text-gray-300">
                 <span className="mr-1">
                   <svg
                     className="w-5 h-5 mt-px text-deep-purple-accent-400"
@@ -97,9 +97,9 @@ export const Content3 = () => {
                     />
                   </svg>
                 </span>
-                Flipboard curmudgeon
+                Natural Language Processing (NLP)
               </li>
-              <li className="flex">
+              <li className="flex text-gray-300">
                 <span className="mr-1">
                   <svg
                     className="w-5 h-5 mt-px text-deep-purple-accent-400"
@@ -115,9 +115,9 @@ export const Content3 = () => {
                     />
                   </svg>
                 </span>
-                Storage shed
+                Cognitive Computing
               </li>
-              <li className="flex">
+              <li className="flex text-gray-300">
                 <span className="mr-1">
                   <svg
                     className="w-5 h-5 mt-px text-deep-purple-accent-400"
@@ -133,7 +133,7 @@ export const Content3 = () => {
                     />
                   </svg>
                 </span>
-                Satoshi Nakamoto
+                Reinforcement Learning
               </li>
             </ul>
           </div>

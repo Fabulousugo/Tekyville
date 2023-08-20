@@ -8,9 +8,11 @@ import { Header } from "../../components/Header";
 import { Features } from "../../components/Feature";
 import { Step } from "../../components/Step";
 import { Faq } from "../../components/Faq";
-import { Team } from "../../components/Team";
+// import { Team } from "../../components/Team";
 // import { Content2 } from "../../components/Content2";
 import { Content3 } from "../../components/content3";
+// import { Teams } from "../../components/Teams";
+import { Teamm } from "../../components/Teamm";
 
 
 export default function Home() {
@@ -32,7 +34,9 @@ return (
       <Content3/>
       <Step/>
       <About/>
-      <Team/>
+      {/* <Teams/> */}
+      <Teamm/>
+      {/* <Team/> */}
       <Faq/>
       <Footer/>
     </div>

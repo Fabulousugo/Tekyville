@@ -212,7 +212,7 @@ export const Features = () => {
       <div className="relative">
         
         <div className="relative">
-        <video className="object-cover w-full h-56 sm:h-96" controls autoPlay loop muted>
+        <video className="object-cover w-full h-56 sm:h-96" controls autoPlay loop muted playsinline>
           <source src="Video.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>

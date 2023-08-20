@@ -66,31 +66,26 @@ export const Content = () => {
         <div className="flex flex-col justify-center">
           <div className="pb-4 mb-4 border-b">
             <h6 className="mb-2 font-semibold leading-5">
-              Sit error voluptatem accusantium
+              Machine Learning (ML):
             </h6>
             <p className="text-sm text-gray-500">
-              Sportacus andrew weatherall goose Refined gentlemen super mario
-              des lynam alpha trion zap rowsdower, omar sharif old.
+             At its core, machine learning is the process of using data to train algorithms to make decisions without explicit programming. ML models &quot;learn&quot; from the data, allowing them to make predictions or decisions without being specifically coded for the task.
             </p>
           </div>
           <div className="pb-4 mb-4 border-b">
             <h6 className="mb-2 font-semibold leading-5">
-              Cheese on toast airedale the big cheese
+              Deep Learning:
             </h6>
             <p className="text-sm text-gray-500">
-              Chase ball of string eat plants, meow, and throw up because I ate
-              plants going to catch the red dot today going to catch the red dot
-              today. I could pee on this if I had the energy.
+              A subset of machine learning, deep learning uses neural networks with many layers (hence “deep”) to analyze various factors of data. Deep learning is especially powerful for tasks like image and speech recognition. Convolutional Neural Networks (CNNs) for image tasks and Recurrent Neural Networks (RNNs) for sequential data are popular structures in deep learning.
             </p>
           </div>
           <div>
             <h6 className="mb-2 font-semibold leading-5">
-              A flower in my garden, a mystery
+              Natural Language Processing (NLP):
             </h6>
             <p className="text-sm text-gray-500">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae doloremque laudantium.
+              NLP involves the interaction between computers and human language. It enables computers to process, analyze, and generate human language in a way that&apos;s valuable. Tasks like sentiment analysis, machine translation, and chatbots are common applications of NLP.
             </p>
           </div>
         </div>

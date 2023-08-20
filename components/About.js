@@ -23,22 +23,20 @@ export const About = () => {
             <div className="bg-white border-l-4 shadow-sm border-[#007AA3]" style={{backgroundColor:'#001829'}}>
               <div className="h-full p-5 border border-l-0 rounded-r">
                 <h6 className="mb-2 font-semibold leading-5">
-                  Ill be sure to note that in my log
+                  AI Creative Design Tools
                 </h6>
                 <p className="text-sm text-gray-500">
-                  Lookout flogging bilge rat main sheet bilge water nipper fluke
-                  to go on account heave down.
+                  AI can be used to turn imaginative or abstract ideas into real, concrete solutions. 
                 </p>
               </div>
             </div>
             <div className="bg-white border-l-4 shadow-sm border-[#007AA3]" style={{backgroundColor:'#001829'}}>
               <div className="h-full p-5 border border-l-0 rounded-r">
                 <h6 className="mb-2 font-semibold leading-5">
-                  A business big enough that it could be listed
+                  Dream Analysis with AI
                 </h6>
                 <p className="text-sm text-gray-500">
-                  Those options are already baked in with this model shoot me an
-                  email clear.
+                  An AI system could be developed to identify patterns, themes, and emotions, providing insights into the subconscious mind.
                 </p>
               </div>
             </div>

@@ -12,7 +12,7 @@ export const Header = () => {
             Empowering Tomorrow,
             <br className="hidden md:block" />
             
-            <span className="inline-block text-deep-purple-accent-400">
+            <span className="inline-block text-gray-300">
               One Algorithm at a Time.
             </span>
           </h2>

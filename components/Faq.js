@@ -47,83 +47,64 @@ export const Faq = () => {
           <div className="space-y-8">
             <div>
               <p className="mb-4 text-xl font-medium">
-                The quick, brown fox jumps over a lazy dog?
+               What is Artificial Intelligence (AI)?
               </p>
               <p className="text-gray-500">
-                Space, the final frontier. These are the voyages of the Starship
-                Enterprise. Its five-year mission: to explore strange new
-                worlds.
+                AI is a field of computer science that aims to create machines that can perform tasks that would typically require human intelligence. 
                 <br />
                 <br />
-                Many say exploration is part of our destiny, but it’s actually
-                our duty to future generations.
+                These tasks include problem-solving, understanding natural language, recognizing patterns, and making decisions.
               </p>
             </div>
             <div>
               <p className="mb-4 text-xl font-medium">
-                The first mate and his Skipper too will do?
+                How does Machine Learning (ML) relate to AI?
               </p>
               <p className="text-gray-500">
-                Well, the way they make shows is, they make one show. That
-                shows called a pilot.
+               Machine Learning is a subset of AI that focuses on the development of algorithms that allow computers to learn from and make predictions or decisions based on data.
                 <br />
                 <br />
-                Then they show that show to the people who make shows, and on
-                the strength of that one show they decide if theyre going to
-                make more shows. Some pilots get picked and become television
-                programs.Some dont, become nothing. She starred in one of the
-                ones that became nothing.
+                 Rather than being explicitly programmed to perform a task, a machine learning model uses patterns in data to make predictions or decisions.
               </p>
             </div>
             <div>
               <p className="mb-4 text-xl font-medium">
-                Is the Space Pope reptilian!?
+                What&apos;s the difference between Narrow AI and General AI?
               </p>
               <p className="text-gray-500">
-                A flower in my garden, a mystery in my panties. Heart attack
-                never stopped old Big Bear. I didnt even know we were calling
-                him Big Bear.
+                Narrow AI, or Weak AI, is designed and trained for a particular task, like virtual personal assistants or image recognition systems. General AI, or Strong AI, would have all the capabilities of human intelligence, being able to understand, learn, and perform any intellectual task that a human being can.
               </p>
             </div>
           </div>
           <div className="space-y-8">
             <div>
               <p className="mb-4 text-xl font-medium">
-                How much money you got on you?
+                Is AI dangerous?
               </p>
               <p className="text-gray-500">
-                The first mate and his Skipper too will do their very best to
-                make the others comfortable in their tropic island nest.
+                Like any tool, the danger of AI depends on how it&apos;s used. While AI has the potential to provide enormous benefits, there are concerns about unintended consequences, misuse (like in autonomous weapons), and potential job displacements. 
                 <br />
                 <br />
-                Michael Knight a young loner on a crusade to champion the cause
-                of the innocent. The helpless. The powerless in a world of
-                criminals who operate above the law. Here he comes Here comes
-                Speed Racer. Hs a demon on wheels.
+                Moreover, the concept of superintelligent AI, which surpasses human intelligence, raises ethical and safety concerns.
               </p>
             </div>
             <div>
               <p className="mb-4 text-xl font-medium">
-                Galaxies Orions sword globular star cluster?
+                Will AI take away jobs?
               </p>
               <p className="text-gray-500">
-                A business big enough that it could be listed on the NASDAQ goes
-                belly up. Disappears!
+                AI has the potential to automate certain tasks, which could displace some jobs. However, it can also create new job opportunities and industries.
                 <br />
                 <br />
-                It ceases to exist without me. No, you clearly dont know who
-                youre talking to, so let me clue you in.
+                 The net effect on employment is still a topic of debate, but the transition may require reskilling and adaptation.
               </p>
             </div>
             <div>
               <p className="mb-4 text-xl font-medium">
-                When has justice ever been as simple as a rule book?
+                Do AI systems have emotions or consciousness?
               </p>
               <p className="text-gray-500">
-                This is not about revenge. This is about justice. A lot of
-                things can change in twelve years, Admiral. Well, thats
-                certainly good to know. About four years. I got tired of hearing
-                how young I looked.
+                No, AI systems do not have emotions, consciousness, or self-awareness. They can simulate emotions or human-like responses based on their programming, but they don&apos;t experience them.
               </p>
             </div>
           </div>
