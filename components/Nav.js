@@ -24,7 +24,7 @@ export const Nav = () => {
 
 
   return (
-    <div class="bg-[#000020] sticky top-0 z-50 border-b border-white" >
+    <div class="bg-[#000020] sticky top-0 z-50 border-b border-[#00BFFF]" >
 
 
       <div class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-20 lg:px-8">
@@ -37,7 +37,7 @@ export const Nav = () => {
             class="inline-flex items-center"
           >
             <img src="icon-tekyvil.png" className="h-12 w-12"/>
-            <span class="ml-2 text-xl font-bold tracking-wide text-gray-50 uppercase"
+            <span class="ml-2 text-xl font-bold tracking-wide text-gray-300 uppercase"
            >
               
               Tekyville

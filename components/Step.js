@@ -1,6 +1,6 @@
 export const Step = () => {
   return (
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20" style={{backgroundColor:'#000020'}}>
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-5">
         <div className="grid gap-6 md:grid-cols-2 md:col-span-2 lg:col-span-3">
           <div className="rounded lg:p-5 lg:transition lg:duration-300 lg:hover:bg-indigo-50">
@@ -65,9 +65,10 @@ export const Step = () => {
         <div className="relative md:col-span-2 lg:col-span-2">
           <img
             className="inset-0 object-cover object-bottom w-full h-56 rounded shadow-lg lg:absolute lg:h-full"
-            src="https://images.pexels.com/photos/3182759/pexels-photo-3182759.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+            src="/A boy in the forest (2).jpg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
             alt=""
           />
+           <div className="absolute inset-0 bg-[#00BFFF] bg-opacity-20 rounded shadow-lg"></div>
         </div>
       </div>
     </div>

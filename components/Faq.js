@@ -8,12 +8,12 @@ export const Faq = () => {
               Brand new
             </p>
           </div>
-          <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+          <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-[#007AA3] sm:text-4xl md:mx-auto">
             <span className="relative inline-block">
               <svg
                 viewBox="0 0 52 24"
                 fill="currentColor"
-                className="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
+                className="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-[#007AA3] lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
               >
                 <defs>
                   <pattern
@@ -36,7 +36,7 @@ export const Faq = () => {
             </span>{' '}
             quick, brown fox jumps over a lazy dog
           </h2>
-          <p className="text-base text-gray-700 md:text-lg">
+          <p className="text-base text-gray-500 md:text-lg">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium doloremque rem aperiam, eaque ipsa quae.
           </p>
@@ -49,7 +49,7 @@ export const Faq = () => {
               <p className="mb-4 text-xl font-medium">
                 The quick, brown fox jumps over a lazy dog?
               </p>
-              <p className="text-gray-700">
+              <p className="text-gray-500">
                 Space, the final frontier. These are the voyages of the Starship
                 Enterprise. Its five-year mission: to explore strange new
                 worlds.
@@ -63,7 +63,7 @@ export const Faq = () => {
               <p className="mb-4 text-xl font-medium">
                 The first mate and his Skipper too will do?
               </p>
-              <p className="text-gray-700">
+              <p className="text-gray-500">
                 Well, the way they make shows is, they make one show. That
                 shows called a pilot.
                 <br />
@@ -79,7 +79,7 @@ export const Faq = () => {
               <p className="mb-4 text-xl font-medium">
                 Is the Space Pope reptilian!?
               </p>
-              <p className="text-gray-700">
+              <p className="text-gray-500">
                 A flower in my garden, a mystery in my panties. Heart attack
                 never stopped old Big Bear. I didnt even know we were calling
                 him Big Bear.
@@ -91,7 +91,7 @@ export const Faq = () => {
               <p className="mb-4 text-xl font-medium">
                 How much money you got on you?
               </p>
-              <p className="text-gray-700">
+              <p className="text-gray-500">
                 The first mate and his Skipper too will do their very best to
                 make the others comfortable in their tropic island nest.
                 <br />
@@ -106,7 +106,7 @@ export const Faq = () => {
               <p className="mb-4 text-xl font-medium">
                 Galaxies Orions sword globular star cluster?
               </p>
-              <p className="text-gray-700">
+              <p className="text-gray-500">
                 A business big enough that it could be listed on the NASDAQ goes
                 belly up. Disappears!
                 <br />
@@ -119,7 +119,7 @@ export const Faq = () => {
               <p className="mb-4 text-xl font-medium">
                 When has justice ever been as simple as a rule book?
               </p>
-              <p className="text-gray-700">
+              <p className="text-gray-500">
                 This is not about revenge. This is about justice. A lot of
                 things can change in twelve years, Admiral. Well, thats
                 certainly good to know. About four years. I got tired of hearing
