@@ -8,7 +8,7 @@ export const Header = () => {
               Brand new
             </p>
           </div> */}
-          <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-#00BFFF sm:text-4xl sm:leading-none">
+          <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-teal-accent-900 sm:text-4xl sm:leading-none">
             The quick, brown fox
             <br className="hidden md:block" />
             jumps over{' '}
@@ -25,7 +25,7 @@ export const Header = () => {
         <div className="flex items-center">
           <a
             href="/"
-            className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-[#00BFFF] hover:bg-#00E5FF focus:shadow-outline focus:outline-none"
+            className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-sm bg-deep-purple-accent-400 hover:bg-[#00003D] text-teal-accent-400 focus:shadow-outline focus:outline-none"
           >
             Get started
           </a>

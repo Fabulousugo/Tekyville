@@ -24,7 +24,7 @@ export const Nav = () => {
 
 
   return (
-    <div class="bg-[#000020] sticky top-0 z-50 border-b border-[#00BFFF]" >
+    <div class="bg-[#00243D] sticky top-0 z-50 border-b border-[#00BFFF]" >
 
 
       <div class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-20 lg:px-8">
@@ -96,7 +96,7 @@ export const Nav = () => {
             <li>
               <a
                 href="/"
-                class="inline-flex items-center justify-center h-8 px-4 font-medium tracking-wide text-white transition duration-200 rounded shadow-s bg-[#00007A] hover:bg-[#00003D] focus:shadow-outline focus:outline-none"
+                class="inline-flex items-center justify-center h-8 px-4 font-medium tracking-wide text-white transition duration-200 rounded shadow-s bg-deep-purple-accent-400 hover:bg-[#00003D] focus:shadow-outline focus:outline-none"
                 aria-label="Sign up"
                 title="Sign up"
               >
@@ -218,7 +218,7 @@ export const Nav = () => {
                       <li>
                         <a
                           href="/"
-                          class="inline-flex items-center justify-center w-full h-8 px-6 font-medium tracking-wide text-white transition duration-400 rounded shadow-sm bg-[#00007A] hover:bg-[#00003D] focus:shadow-outline focus:outline-none"
+                          class="inline-flex items-center justify-center w-full h-8 px-6 font-medium tracking-wide text-white transition duration-400 rounded shadow-sm bg-deep-purple-accent-400 hover:bg-[#00003D] focus:shadow-outline focus:outline-none"
                           aria-label="Sign up"
                           title="Sign up"
                         >

@@ -15,7 +15,7 @@ import { Content2 } from "../../components/Content2";
 export default function Home() {
 
 return (
-  <div style={{backgroundColor: '#000020', color:'#00BFFF',minHeight: '100vh'}}>
+  <div style={{backgroundColor: '#001829', color:'#00BFFF',minHeight: '100vh'}}>
     <div >
       <Head>
         <title>Teckyvil</title>
