@@ -9,7 +9,8 @@ import { Features } from "../../components/Feature";
 import { Step } from "../../components/Step";
 import { Faq } from "../../components/Faq";
 import { Team } from "../../components/Team";
-import { Content2 } from "../../components/Content2";
+// import { Content2 } from "../../components/Content2";
+import { Content3 } from "../../components/content3";
 
 
 export default function Home() {
@@ -27,7 +28,8 @@ return (
       <Header/>
       <Features/>
       <Content/>
-      <Content2/>
+      {/* <Content2/> */}
+      <Content3/>
       <Step/>
       <About/>
       <Team/>

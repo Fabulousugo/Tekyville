@@ -31,20 +31,24 @@ export const Content = () => {
                 height="24"
               />
             </svg>
-            <span className="relative">The</span>
+            <span className="relative">Empowering</span>
           </span>{' '}
-          quick, brown fox jumps over a lazy dog
+          Tomorrow, Today:
+
+          <span className="inline-block text-deep-purple-accent-400">
+            {' '}
+            AI Beyond Boundaries.
+            </span>
         </h2>
         <p className="text-base text-gray-500 md:text-lg">
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque rem aperiam, eaque ipsa quae.
+          Shaping tomorrow with AI-driven innovation. Join us on a journey to the future.
         </p>
       </div>
       <div className="grid max-w-screen-lg gap-8 lg:grid-cols-2 sm:mx-auto">
-        <div className="grid grid-cols-2 gap-5">
+        <div className="overlay-image">
           <img
             className="object-cover w-full h-10% col-span-2 rounded shadow-lg"
-            src="Expedition (3).jpg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+            src="/The Enchanted Forest_ Two friends.jpg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
             alt=""
           />
           

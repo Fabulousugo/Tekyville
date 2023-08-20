@@ -9,17 +9,15 @@ export const Header = () => {
             </p>
           </div> */}
           <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-teal-accent-900 sm:text-4xl sm:leading-none">
-            The quick, brown fox
+            Empowering Tomorrow,
             <br className="hidden md:block" />
-            jumps over{' '}
+            
             <span className="inline-block text-deep-purple-accent-400">
-              a lazy dog
+              One Algorithm at a Time.
             </span>
           </h2>
           <p className="text-base text-gray-500 md:text-lg">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae. explicabo.
+           Transforming the future with AI-driven insights and solutions. Dive in, and let innovation lead the way.
           </p>
         </div>
         <div className="flex items-center">

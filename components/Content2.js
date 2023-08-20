@@ -7,7 +7,7 @@ export const Content2 = () => {
             Brand new
           </p>
         </div> */}
-        <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-[#00BFFF] sm:text-4xl md:mx-auto">
+        <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-[#00BFFF] sm:text-3xl md:mx-auto">
           <span className="relative inline-block">
             <svg
               viewBox="0 0 52 24"
@@ -31,13 +31,16 @@ export const Content2 = () => {
                 height="24"
               />
             </svg>
-            <span className="relative">The</span>
+            <span className="relative">Empowering </span>
           </span>{' '}
-          quick, brown fox jumps over a lazy dog
+          Tomorrow, Today:
+          <span className="inline-block text-deep-purple-accent-400">
+            {' '}
+            Where AI Meets Infinite Possibilities.
+            </span>
         </h2>
         <p className="text-base text-gray-500 md:text-lg">
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque rem aperiam, eaque ipsa quae.
+          Dive into the future with our state-of-the-art AI solutions. We don't just predict the future, we shape it.
         </p>
       </div>
       <div className="grid max-w-screen-lg gap-8 lg:grid-cols-2 sm:mx-auto">

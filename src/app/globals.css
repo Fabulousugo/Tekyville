@@ -33,3 +33,18 @@ body {
 .myLink:hover {
   color: whitesmoke; 
 }
+.overlay-image {
+  position: relative;
+  display: inline-block;
+}
+
+.overlay-image::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 41, 0.3); /* Semi-transparent black. Adjust the transparency as needed. */
+  pointer-events: none;
+}
