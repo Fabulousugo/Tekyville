@@ -52,7 +52,7 @@ export const Nav = () => {
                 title="Our product"
                 className="myLink"
                 // class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
-                // style ={{color: '#00BFFF'}}
+                style ={{color: '#77e6da'}}
               >
                 Product
               </a>
@@ -64,7 +64,7 @@ export const Nav = () => {
                 title="Our product"
                 className="myLink"
                 // class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
-                // style ={{color: '#00BFFF'}}
+                style ={{color: '#77e6da'}}
               >
                 Features
               </a>
@@ -76,7 +76,7 @@ export const Nav = () => {
                 title="Product pricing"
                 className="myLink"
                 // class="font-medium tracking-wide text-blue-100 transition-colors duration-200 hover:text-teal-accent-400"
-                // style ={{color: '#00BFFF'}}
+                style ={{color: '#77e6da'}}
               >
                 Pricing
               </a>
@@ -88,7 +88,7 @@ export const Nav = () => {
                 title="About us"
                 className="myLink"
                 // class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:light-green-accent-400"
-                // style ={{color: '#00BFFF',hover: '#000000'}}
+                style ={{color: '#77e6da',hover: '#000000'}}
               >
                 About us
               </a>

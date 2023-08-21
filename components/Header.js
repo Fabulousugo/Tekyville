@@ -8,7 +8,7 @@ export const Header = () => {
               Brand new
             </p>
           </div> */}
-          <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-teal-accent-900 sm:text-4xl sm:leading-none">
+          <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-[#77e6da] sm:text-4xl sm:leading-none">
             Empowering Tomorrow,
             <br className="hidden md:block" />
             
