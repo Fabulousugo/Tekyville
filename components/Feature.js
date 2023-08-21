@@ -3,7 +3,7 @@ export const Features = () => {
     <div>
       <div className=" bg-gray-50 flex flex-col px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 lg:flex-row" style={{backgroundColor:"#001829"}}>
         <div className="mb-5 lg:w-1/3 lg:mb-0 lg:mr-20" style={{backgroundColor:"#001829"}}>
-          <h2 className="relative mb-4 font-sans text-3xl font-bold tracking-tight text-[#00BFFF] sm:text-4xl sm:leading-none">
+          <h2 className="relative mb-4 font-sans text-3xl font-bold tracking-tight text-[#77e6da] sm:text-4xl sm:leading-none">
             <span className="relative inline-block">
               <svg
                 viewBox="0 0 52 24"
@@ -31,13 +31,13 @@ export const Features = () => {
             </span>{' '}
             is Limitless
           </h2>
-          <p className="mb-4 text-gray-500 lg:mb-6">
+          <p className="mb-4 text-gray-400  00 lg:mb-6">
            Empowering hearts and minds with AI. Imagine a brighter tomorrow, together.
           </p>
           {/* <a
             href="/"
             aria-label=""
-            className="inline-flex items-center font-semibold transition-colors duration-200 text-gray-500 hover:text-gray 5       >
+            className="inline-flex items-center font-semibold transition-colors duration-200 text-gray-500 text-gray-200 hover:text-gray 5       >
             Learn more
             <svg
               className="inline-block w-3 ml-2"
@@ -50,7 +50,7 @@ export const Features = () => {
         </div>
         <div className="flex-grow pt-1">
           <div className="flex items-center mb-3">
-            <span className="font-bold tracking-wide text-gray-500">
+            <span className="font-bold tracking-wide text-[#77e6da]">
               Categories
             </span>
             <span className="ml-1">
@@ -74,7 +74,7 @@ export const Features = () => {
               <li>
                 <a
                   // href="/"
-                  className="transition-colors duration-300 hover:text-gray-500"
+                  className="transition-colors duration-300 text-gray-200 hover:text-gray-500"
                 >
                   Computers
                 </a>
@@ -82,7 +82,7 @@ export const Features = () => {
               <li>
                 <a
                   // href="/"
-                  className="transition-colors duration-300 hover:text-gray-500"
+                  className="transition-colors duration-300 text-gray-200 hover:text-gray-500"
                 >
                   Health
                 </a>
@@ -90,7 +90,7 @@ export const Features = () => {
               <li>
                 <a
                   // href="/"
-                  className="transition-colors duration-300 hover:text-gray-500"
+                  className="transition-colors duration-300 text-gray-200 hover:text-gray-500"
                 >
                   Reference
                 </a>
@@ -98,7 +98,7 @@ export const Features = () => {
               <li>
                 <a
                   // href="/"
-                  className="transition-colors duration-300 hover:text-gray-500"
+                  className="transition-colors duration-300 text-gray-200 hover:text-gray-500"
                 >
                   World
                 </a>
@@ -108,7 +108,7 @@ export const Features = () => {
               <li>
                 <a
                   // href="/"
-                  className="transition-colors duration-300 hover:text-gray-500"
+                  className="transition-colors duration-300 text-gray-200 hover:text-gray-500"
                 >
                   eCommerce
                 </a>
@@ -116,7 +116,7 @@ export const Features = () => {
               <li>
                 <a
                   // href="/"
-                  className="transition-colors duration-300 hover:text-gray-500"
+                  className="transition-colors duration-300 text-gray-200 hover:text-gray-500"
                 >
                   Business
                 </a>
@@ -124,7 +124,7 @@ export const Features = () => {
               <li>
                 <a
                   // href="/"
-                  className="transition-colors duration-300 hover:text-gray-500"
+                  className="transition-colors duration-300 text-gray-200 hover:text-gray-500"
                 >
                   Portfolio
                 </a>
@@ -132,7 +132,7 @@ export const Features = () => {
               <li>
                 <a
                   // href="/"
-                  className="transition-colors duration-300 hover:text-gray-500"
+                  className="transition-colors duration-300 text-gray-200 hover:text-gray-500"
                 >
                   Video
                 </a>
@@ -142,7 +142,7 @@ export const Features = () => {
               <li>
                 <a
                   // href="/"
-                  className="transition-colors duration-300 hover:text-gray-500"
+                  className="transition-colors duration-300 text-gray-200 hover:text-gray-500"
                 >
                   Brochure
                 </a>
@@ -150,7 +150,7 @@ export const Features = () => {
               <li>
                 <a
                   href="/"
-                  className="transition-colors duration-300 hover:text-gray-500"
+                  className="transition-colors duration-300 text-gray-200 hover:text-gray-500"
                 >
                   Nonprofit
                 </a>
@@ -158,7 +158,7 @@ export const Features = () => {
               <li>
                 <a
                   // href="/"
-                  className="transition-colors duration-300 hover:text-gray-500"
+                  className="transition-colors duration-300 text-gray-200 hover:text-gray-500"
                 >
                   Educational
                 </a>
@@ -166,7 +166,7 @@ export const Features = () => {
               <li>
                 <a
                   // href="/"
-                  className="transition-colors duration-300 hover:text-gray-500"
+                  className="transition-colors duration-300 text-gray-200 hover:text-gray-500"
                 >
                   Sports
                 </a>
@@ -176,7 +176,7 @@ export const Features = () => {
               <li>
                 <a
                   // href="/"
-                  className="transition-colors duration-300 hover:text-gray-500"
+                  className="transition-colors duration-300 text-gray-200 hover:text-gray-500"
                 >
                   Infopreneur
                 </a>
@@ -184,7 +184,7 @@ export const Features = () => {
               <li>
                 <a
                   // href="/"
-                  className="transition-colors duration-300 hover:text-gray-500"
+                  className="transition-colors duration-300 text-gray-200 hover:text-gray-500"
                 >
                   Health
                 </a>
@@ -192,7 +192,7 @@ export const Features = () => {
               <li>
                 <a
                   // href="/"
-                  className="transition-colors duration-300 hover:text-gray-500"
+                  className="transition-colors duration-300 text-gray-200 hover:text-gray-500"
                 >
                   Web
                 </a>
@@ -200,7 +200,7 @@ export const Features = () => {
               <li>
                 <a
                   // href="/"
-                  className="transition-colors duration-300 hover:text-gray-500"
+                  className="transition-colors duration-300 text-gray-200 hover:text-gray-500"
                 >
                   Personal
                 </a>

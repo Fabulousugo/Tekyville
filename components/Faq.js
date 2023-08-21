@@ -1,14 +1,14 @@
 export const Faq = () => {
   return (
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-      <div className="max-w-xl sm:mx-auto lg:max-w-2xl">
-        <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+    <div className="px-4 py-16 mx-auto sm:max-w-[#77e6da] md:max-w-full lg:max-w-screen-[#77e6da] md:px-24 lg:px-8 lg:py-20">
+      <div className="max-w-[#77e6da] sm:mx-auto lg:max-w-2[#77e6da]">
+        <div className="max-w-[#77e6da] mb-10 md:mx-auto sm:text-center lg:max-w-2[#77e6da] md:mb-12">
           <div>
             <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-gray-500">
               Brand new
             </p>
           </div>
-          <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-[#007AA3] sm:text-4xl md:mx-auto">
+          <h2 className="max-w-lg mb-6 font-sans text-3[#77e6da] font-bold leading-none tracking-tight text-[#77e6da] sm:text-4[#77e6da] md:mx-auto">
             <span className="relative inline-block">
               <svg
                 viewBox="0 0 52 24"
@@ -36,17 +36,16 @@ export const Faq = () => {
             </span>{' '}
              Frequently asked questions
           </h2>
-          <p className="text-base text-gray-500 md:text-lg">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque rem aperiam, eaque ipsa quae.
+          <p className="text-base text-gray-300 md:text-lg">
+            Dive into the world of AI technology with our comprehensive FAQs, unraveling the mysteries behind artificial intelligence, its applications, impact on jobs, ethical considerations, and much more.
           </p>
         </div>
       </div>
-      <div className="max-w-screen-xl sm:mx-auto">
+      <div className="max-w-screen-[#77e6da] sm:mx-auto">
         <div className="grid grid-cols-1 gap-16 row-gap-8 lg:grid-cols-2">
           <div className="space-y-8">
             <div>
-              <p className="mb-4 text-xl font-medium">
+              <p className="mb-4 text-[#77e6da] font-medium">
                What is Artificial Intelligence (AI)?
               </p>
               <p className="text-gray-500">
@@ -57,7 +56,7 @@ export const Faq = () => {
               </p>
             </div>
             <div>
-              <p className="mb-4 text-xl font-medium">
+              <p className="mb-4 text-[#77e6da] font-medium">
                 How does Machine Learning (ML) relate to AI?
               </p>
               <p className="text-gray-500">
@@ -68,7 +67,7 @@ export const Faq = () => {
               </p>
             </div>
             <div>
-              <p className="mb-4 text-xl font-medium">
+              <p className="mb-4 text-[#77e6da] font-medium">
                 What&apos;s the difference between Narrow AI and General AI?
               </p>
               <p className="text-gray-500">
@@ -78,7 +77,7 @@ export const Faq = () => {
           </div>
           <div className="space-y-8">
             <div>
-              <p className="mb-4 text-xl font-medium">
+              <p className="mb-4 text-[#77e6da] font-medium">
                 Is AI dangerous?
               </p>
               <p className="text-gray-500">
@@ -89,7 +88,7 @@ export const Faq = () => {
               </p>
             </div>
             <div>
-              <p className="mb-4 text-xl font-medium">
+              <p className="mb-4 text-[#77e6da] font-medium">
                 Will AI take away jobs?
               </p>
               <p className="text-gray-500">
@@ -100,7 +99,7 @@ export const Faq = () => {
               </p>
             </div>
             <div>
-              <p className="mb-4 text-xl font-medium">
+              <p className="mb-4 text-[#77e6da] font-medium">
                 Do AI systems have emotions or consciousness?
               </p>
               <p className="text-gray-500">
