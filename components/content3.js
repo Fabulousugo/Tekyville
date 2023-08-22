@@ -4,14 +4,14 @@ export const Content3 = () => {
       <div className="grid gap-5 row-gap-10 lg:grid-cols-2">
         <div className="flex flex-col justify-center">
           <div className="max-w-xl mb-6">
-           <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-[#00BFFF] sm:text-3xl md:mx-auto">
+           <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-[#77e6da] sm:text-3xl md:mx-auto">
               Empowering 
               <br className="hidden md:block" />
               {' '}
               Tomorrow, Today:
               <span className="relative px-1">
                 <div className="absolute inset-x-0 bottom-0 h-3 transform -skew-x-12 bg-teal-accent-400" />
-                <span className="relative inline-block text-deep-purple-accent-400">
+                <span className="relative inline-block text-gray-300">
                  Where AI Meets Infinite Possibilities.
                 </span>
               </span>
@@ -20,7 +20,7 @@ export const Content3 = () => {
                Dive into the future with our state-of-the-art AI solutions. We don&apos;t just predict the future, we shape it.
             </p>
           </div>
-          <p className="mb-4 text-sm font-bold tracking-widest uppercase">
+          <p className="mb-4 text-sm font-bold tracking-widest uppercase text-[#77e6da]">
             Features
           </p>
           <div className="grid space-y-3 sm:gap-2 sm:grid-cols-2 sm:space-y-0">

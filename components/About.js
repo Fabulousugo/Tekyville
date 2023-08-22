@@ -1,6 +1,6 @@
 export const About = () => {
   return (
-    <div className=" bg-gray-50 px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20" style={{backgroundColor:'#001829'}}>
+    <div className=" bg-gray-50 px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 text-[#77e6da]" style={{backgroundColor:'#001829'}}>
       <div className="grid gap-5 row-gap-8 lg:grid-cols-2" >
         <div className="flex flex-col justify-center" >
           <div className="max-w-xl mb-6">
@@ -9,8 +9,8 @@ export const About = () => {
               <br className="hidden md:block" />
               {' '}
               <span className="relative px-1">
-                <div className="absolute inset-x-0 bottom-0 h-3 transform -skew-x-12 bg-[#007AA3]" />
-                <span className="relative inline-block text-deep-purple-accent-400">
+                <div className="absolute inset-x-0 bottom-0 h-3 transform -skew-x-12 bg-[#77e6da]" />
+                <span className="relative inline-block text-gray-300">
                   Realities.
                 </span>
               </span>

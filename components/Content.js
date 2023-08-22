@@ -1,13 +1,13 @@
 export const Content = () => {
   return (
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20" style={{backgroundColor:'#001829'}}>
+    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 text-[#77e6da]" style={{backgroundColor:'#001829'}}>
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
         <div>
           {/* <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-500 uppercase rounded-full bg-teal-accent-400">
             Brand new
           </p> */}
         </div>
-        <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-[#00BFFF]sm:text-4xl md:mx-auto">
+        <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-[#77e6da]sm:text-4xl md:mx-auto">
           <span className="relative inline-block">
             <svg
               viewBox="0 0 52 24"
@@ -35,7 +35,7 @@ export const Content = () => {
           </span>{' '}
           Tomorrow, Today:
 
-          <span className="inline-block text-deep-purple-accent-400">
+          <span className="inline-block text-gray-300">
             {' '}
             AI Beyond Boundaries.
             </span>
@@ -65,7 +65,7 @@ export const Content = () => {
         </div>
         <div className="flex flex-col justify-center">
           <div className="pb-4 mb-4 border-b">
-            <h6 className="mb-2 font-semibold leading-5">
+            <h6 className="mb-2 font-semibold leading-5 text-[#77e6da]">
               Machine Learning (ML):
             </h6>
             <p className="text-sm text-gray-500">
@@ -73,7 +73,7 @@ export const Content = () => {
             </p>
           </div>
           <div className="pb-4 mb-4 border-b">
-            <h6 className="mb-2 font-semibold leading-5">
+            <h6 className="mb-2 font-semibold leading-5 text-[#77e6da]" >
               Deep Learning:
             </h6>
             <p className="text-sm text-gray-500">
@@ -81,7 +81,7 @@ export const Content = () => {
             </p>
           </div>
           <div>
-            <h6 className="mb-2 font-semibold leading-5">
+            <h6 className="mb-2 font-semibold leading-5 text-[#77e6da]">
               Natural Language Processing (NLP):
             </h6>
             <p className="text-sm text-gray-500">
